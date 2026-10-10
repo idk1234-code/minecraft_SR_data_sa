@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "training_routes_reconciled": 1136000,
+  "candidates": 140,
+  "all_candidates_full8000": true,
+  "offspring_reconstructed_from_prior_full_training_only": true,
+  "incumbent_success_monotone": true,
+  "frozen_winners_match_full_budget_objective": true
+}

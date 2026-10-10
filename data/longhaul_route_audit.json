@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "routes": 50000,
+  "paired_origin_heading": true,
+  "first_flags_and_stopping_reconciled": true,
+  "phase_steps_reconciled": true,
+  "absolute_goals_within_remaining_budget_when_created": 26996,
+  "all_initial_visibility_identical": true
+}

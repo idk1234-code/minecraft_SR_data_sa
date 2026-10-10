@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "fixed_validation_seeds": 2,
+  "native_target_first_distance_checks": 80,
+  "maximum_error_blocks": 4.039879968331661e-07,
+  "method": "Independent circle/segment intersections of native target points, post-freeze only"
+}

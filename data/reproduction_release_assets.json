@@ -1,0 +1,14 @@
+[
+  {
+    "suggested_release_asset": "modular_single_target_reproduction.zip",
+    "source_relative_to_workspace": "outputs/route_modular/complete_experiment.zip",
+    "bytes": 70208294,
+    "sha256": "d7f23a2a05d5cf215f2b452a4390cce5c71de9de5385505b0ad34b3b11406500"
+  },
+  {
+    "suggested_release_asset": "longhaul_single_target_reproduction.zip",
+    "source_relative_to_workspace": "outputs/route_longhaul/reproduction_bundle.zip",
+    "bytes": 63707427,
+    "sha256": "ca07c0708372871a9735c54dfc16301c34db6c21240fa72e402c155aeaf04d18"
+  }
+]

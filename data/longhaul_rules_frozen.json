@@ -1,0 +1,395 @@
+{
+  "frozen_utc": "2026-10-10T20:55:19.145890+00:00",
+  "winners": [
+    {
+      "program": {
+        "id": 0,
+        "kind": 0,
+        "target": 0,
+        "cue": 2,
+        "a": [
+          2048,
+          1024,
+          0.55,
+          1,
+          0.3,
+          512,
+          1536,
+          0.12,
+          0.055,
+          768,
+          2048,
+          768,
+          0.7,
+          1024,
+          0.15,
+          1,
+          0.15,
+          0.15,
+          0.7,
+          1024,
+          0.12,
+          0.9
+        ],
+        "local": {
+          "turn": 0.041766533473702995,
+          "escape": 0.025862395835003906,
+          "terms": [
+            {
+              "missing": 1,
+              "last": 0,
+              "scene": 2,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 2,
+              "weight": 0.18822987555445236
+            },
+            {
+              "missing": 1,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 3,
+              "weight": 0.12602829903702784
+            },
+            {
+              "missing": 1,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 6,
+              "weight": -0.1357737117290656
+            },
+            {
+              "missing": 1,
+              "last": 0,
+              "scene": 2,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.04120494640478513,
+              "feature": 0,
+              "weight": 0.13851439729547674
+            },
+            {
+              "missing": 1,
+              "last": 0,
+              "scene": 1,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.10060109919706849,
+              "feature": 3,
+              "weight": -0.09617930573729792
+            }
+          ]
+        },
+        "generation": 0,
+        "parents": [],
+        "operation": [
+          "current_frozen_expert"
+        ]
+      },
+      "metrics": {
+        "id": 0,
+        "n": 8000,
+        "initial_known": 501,
+        "success10000": 3164,
+        "success4096": 1838,
+        "success2048": 1200,
+        "restricted_sum": 60212782.85738992,
+        "complexity": 5,
+        "mode_steps": [
+          475980,
+          0,
+          0
+        ],
+        "goals": 0,
+        "corrections": 0,
+        "cue_exits": 0,
+        "cue_probes": 0,
+        "restricted_mean": 7526.59785717374
+      }
+    },
+    {
+      "program": {
+        "id": 1040,
+        "kind": 1,
+        "target": 1,
+        "cue": 1,
+        "a": [
+          2048.0,
+          1024.0,
+          0.55,
+          1.0,
+          0.03,
+          512.0,
+          2271.2001029834737,
+          0.03,
+          0.008324213855776745,
+          768.0,
+          2048.0,
+          768.0,
+          0.7491641416925672,
+          1024.0,
+          0.15,
+          1.042170141543337,
+          0.10064862940686986,
+          0.15,
+          0.7,
+          1024.0,
+          0.12,
+          0.9
+        ],
+        "local": {
+          "turn": 0.0,
+          "escape": 0.030081929869098398,
+          "terms": [
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 0,
+              "weight": -0.005407185638112107
+            },
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 1,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 0,
+              "weight": 0.0431599695729437
+            },
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 0,
+              "weight": 0.00010181518201287862
+            },
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 1,
+              "weight": 0.08701390470583246
+            },
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 1,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 0,
+              "weight": -0.011491150206117613
+            },
+            {
+              "missing": 2,
+              "last": 0,
+              "scene": 2,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.10325533700383031,
+              "feature": 3,
+              "weight": 0.03232555776896369
+            }
+          ]
+        },
+        "generation": 4,
+        "parents": [
+          1031
+        ],
+        "operation": [
+          "corridor_weight",
+          "history_weight"
+        ],
+        "created_from_prior_full_training": true
+      },
+      "metrics": {
+        "id": 1040,
+        "n": 8000,
+        "initial_known": 83,
+        "success10000": 1940,
+        "success4096": 876,
+        "success2048": 526,
+        "restricted_sum": 69476892.69462101,
+        "complexity": 28,
+        "mode_steps": [
+          99716,
+          339175,
+          110140
+        ],
+        "goals": 47905,
+        "corrections": 15,
+        "cue_exits": 18942,
+        "cue_probes": 23098,
+        "restricted_mean": 8684.611586827627
+      }
+    },
+    {
+      "program": {
+        "id": 2000,
+        "kind": 0,
+        "target": 2,
+        "cue": 5,
+        "a": [
+          2048,
+          1024,
+          0.55,
+          1,
+          0.3,
+          512,
+          1536,
+          0.12,
+          0.055,
+          768,
+          2048,
+          768,
+          0.7,
+          1024,
+          0.15,
+          1,
+          0.15,
+          0.15,
+          0.7,
+          1024,
+          0.12,
+          0.9
+        ],
+        "local": {
+          "turn": 0.0,
+          "escape": 0.07342294007227669,
+          "terms": [
+            {
+              "missing": 4,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.055,
+              "feature": 1,
+              "weight": -0.06998404029400729
+            }
+          ]
+        },
+        "generation": 0,
+        "parents": [],
+        "operation": [
+          "current_frozen_expert"
+        ]
+      },
+      "metrics": {
+        "id": 2000,
+        "n": 8000,
+        "initial_known": 717,
+        "success10000": 3443,
+        "success4096": 2199,
+        "success2048": 1532,
+        "restricted_sum": 56874323.73485205,
+        "complexity": 1,
+        "mode_steps": [
+          449678,
+          0,
+          0
+        ],
+        "goals": 0,
+        "corrections": 0,
+        "cue_exits": 0,
+        "cue_probes": 0,
+        "restricted_mean": 7109.290466856507
+      }
+    },
+    {
+      "program": {
+        "id": 3000,
+        "kind": 0,
+        "target": 3,
+        "cue": 6,
+        "a": [
+          2048,
+          1024,
+          0.55,
+          1,
+          0.3,
+          512,
+          1536,
+          0.12,
+          0.055,
+          768,
+          2048,
+          768,
+          0.7,
+          1024,
+          0.15,
+          1,
+          0.15,
+          0.15,
+          0.7,
+          1024,
+          0.12,
+          0.9
+        ],
+        "local": {
+          "turn": 0.051461936352057716,
+          "escape": 0.05728678257649442,
+          "terms": [
+            {
+              "missing": 8,
+              "last": 0,
+              "scene": 0,
+              "start": 0.0,
+              "end": 10000.0,
+              "gate": 0.0549868188254774,
+              "feature": 6,
+              "weight": 0.17857837334473908
+            }
+          ]
+        },
+        "generation": 0,
+        "parents": [],
+        "operation": [
+          "current_frozen_expert"
+        ]
+      },
+      "metrics": {
+        "id": 3000,
+        "n": 8000,
+        "initial_known": 351,
+        "success10000": 2204,
+        "success4096": 1254,
+        "success2048": 820,
+        "restricted_sum": 66345724.25233601,
+        "complexity": 1,
+        "mode_steps": [
+          524319,
+          0,
+          0
+        ],
+        "goals": 0,
+        "corrections": 0,
+        "cue_exits": 0,
+        "cue_probes": 0,
+        "restricted_mean": 8293.215531542
+      }
+    }
+  ],
+  "validation_outcomes_read": false,
+  "archive_sha256": "1295dcfdd20453595bc75d7e6aeb8c276b078a4c7c218e30b2576badc885fffb",
+  "history_sha256": "40fe8c0516fad892b2c0483ce330e6e7070a3bda42f88a096d78d4b3c425febf",
+  "protocol_sha256": "1fb883da18def793ac6059cde0e4791e469f7d218e75cabc9ab252b760427e70"
+}

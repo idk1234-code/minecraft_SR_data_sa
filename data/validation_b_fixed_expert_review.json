@@ -1,0 +1,135 @@
+{
+  "analysis": "Posthoc closure review of the unchanged expert across the second fresh5000 cohort; no route or policy changes",
+  "bootstrap_replicates": 10000,
+  "holm_family": "4targets x2references=8",
+  "comparisons": [
+    {
+      "target": "巨型针叶林",
+      "reference": "随机直飞",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.3832,
+      "reference_rate": 0.3836,
+      "difference": -0.0004,
+      "difference_ci95": [
+        -0.016,
+        0.0154
+      ],
+      "expert_only": 814,
+      "reference_only": 816,
+      "paired_exact_p": 0.9802403317104332,
+      "holm_p_across8": 1.0
+    },
+    {
+      "target": "巨型针叶林",
+      "reference": "覆盖优先",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.3832,
+      "reference_rate": 0.3736,
+      "difference": 0.0096,
+      "difference_ci95": [
+        -0.006,
+        0.025
+      ],
+      "expert_only": 831,
+      "reference_only": 783,
+      "paired_exact_p": 0.24203513912932423,
+      "holm_p_across8": 0.9681405565172969
+    },
+    {
+      "target": "蘑菇岛",
+      "reference": "随机直飞",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.2344,
+      "reference_rate": 0.1434,
+      "difference": 0.091,
+      "difference_ci95": [
+        0.0772,
+        0.1046
+      ],
+      "expert_only": 852,
+      "reference_only": 397,
+      "paired_exact_p": 1.324174859270216e-38,
+      "holm_p_across8": 1.0593398874161728e-37
+    },
+    {
+      "target": "蘑菇岛",
+      "reference": "覆盖优先",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.2344,
+      "reference_rate": 0.1476,
+      "difference": 0.0868,
+      "difference_ci95": [
+        0.0732,
+        0.1002
+      ],
+      "expert_only": 856,
+      "reference_only": 422,
+      "paired_exact_p": 2.0892224075557105e-34,
+      "holm_p_across8": 1.4624556852889973e-33
+    },
+    {
+      "target": "丛林",
+      "reference": "随机直飞",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.4216,
+      "reference_rate": 0.4224,
+      "difference": -0.0008,
+      "difference_ci95": [
+        -0.018004999999999993,
+        0.0164
+      ],
+      "expert_only": 958,
+      "reference_only": 962,
+      "paired_exact_p": 0.9454175822525926,
+      "holm_p_across8": 1.0
+    },
+    {
+      "target": "丛林",
+      "reference": "覆盖优先",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.4216,
+      "reference_rate": 0.4168,
+      "difference": 0.0048,
+      "difference_ci95": [
+        -0.0118,
+        0.0214
+      ],
+      "expert_only": 929,
+      "reference_only": 905,
+      "paired_exact_p": 0.5912335963629373,
+      "holm_p_across8": 1.0
+    },
+    {
+      "target": "恶地",
+      "reference": "随机直飞",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.2678,
+      "reference_rate": 0.2482,
+      "difference": 0.0196,
+      "difference_ci95": [
+        0.0066,
+        0.0328
+      ],
+      "expert_only": 627,
+      "reference_only": 529,
+      "paired_exact_p": 0.0043116426125204615,
+      "holm_p_across8": 0.025869855675122767
+    },
+    {
+      "target": "恶地",
+      "reference": "覆盖优先",
+      "seeds": 5000,
+      "fixed_expert_rate": 0.2678,
+      "reference_rate": 0.2532,
+      "difference": 0.0146,
+      "difference_ci95": [
+        0.002,
+        0.027204999999999927
+      ],
+      "expert_only": 557,
+      "reference_only": 484,
+      "paired_exact_p": 0.025597476637318498,
+      "holm_p_across8": 0.12798738318659247
+    }
+  ]
+}

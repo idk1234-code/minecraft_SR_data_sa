@@ -1,0 +1,1046 @@
+{
+  "utc": "2026-10-10T20:58:12.650118+00:00",
+  "table": [
+    {
+      "target": "巨型针叶林",
+      "target_key": "mega_taiga",
+      "initial_known": 336,
+      "methods": [
+        {
+          "name": "随机直飞",
+          "id": -1,
+          "successes": 1918,
+          "rate": 0.3836,
+          "restricted_mean_distance": 7641.903911157,
+          "success4096": 1058,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "覆盖优先",
+          "id": -3,
+          "successes": 1868,
+          "rate": 0.3736,
+          "restricted_mean_distance": 7642.695685413599,
+          "success4096": 1081,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "当前搜索器",
+          "id": 41000,
+          "successes": 1916,
+          "rate": 0.3832,
+          "restricted_mean_distance": 7589.1057812098,
+          "success4096": 1096,
+          "mean_mode_steps": [
+            59.9858,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "本轮搜索器",
+          "id": 42000,
+          "successes": 1916,
+          "rate": 0.3832,
+          "restricted_mean_distance": 7589.1057812098,
+          "success4096": 1096,
+          "mean_mode_steps": [
+            59.9858,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        }
+      ]
+    },
+    {
+      "target": "蘑菇岛",
+      "target_key": "mushroom_fields",
+      "initial_known": 48,
+      "methods": [
+        {
+          "name": "随机直飞",
+          "id": -1,
+          "successes": 717,
+          "rate": 0.1434,
+          "restricted_mean_distance": 9232.648447056401,
+          "success4096": 318,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "覆盖优先",
+          "id": -3,
+          "successes": 738,
+          "rate": 0.1476,
+          "restricted_mean_distance": 9223.8536098688,
+          "success4096": 316,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "当前搜索器",
+          "id": 41001,
+          "successes": 1172,
+          "rate": 0.2344,
+          "restricted_mean_distance": 8705.6331292092,
+          "success4096": 557,
+          "mean_mode_steps": [
+            68.7978,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "本轮搜索器",
+          "id": 42001,
+          "successes": 1199,
+          "rate": 0.2398,
+          "restricted_mean_distance": 8701.1327397204,
+          "success4096": 552,
+          "mean_mode_steps": [
+            12.6268,
+            42.3898,
+            13.7412
+          ],
+          "mean_goals": 6.0374,
+          "mean_exits": 2.3682,
+          "mean_corrections": 0.0014,
+          "mean_probes": 2.8776
+        }
+      ]
+    },
+    {
+      "target": "丛林",
+      "target_key": "jungle",
+      "initial_known": 444,
+      "methods": [
+        {
+          "name": "随机直飞",
+          "id": -1,
+          "successes": 2112,
+          "rate": 0.4224,
+          "restricted_mean_distance": 7226.791982378,
+          "success4096": 1286,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "覆盖优先",
+          "id": -3,
+          "successes": 2084,
+          "rate": 0.4168,
+          "restricted_mean_distance": 7240.444456151199,
+          "success4096": 1281,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "当前搜索器",
+          "id": 41002,
+          "successes": 2108,
+          "rate": 0.4216,
+          "restricted_mean_distance": 7189.296686471599,
+          "success4096": 1317,
+          "mean_mode_steps": [
+            56.838,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "本轮搜索器",
+          "id": 42002,
+          "successes": 2108,
+          "rate": 0.4216,
+          "restricted_mean_distance": 7189.296686471599,
+          "success4096": 1317,
+          "mean_mode_steps": [
+            56.838,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        }
+      ]
+    },
+    {
+      "target": "恶地",
+      "target_key": "badlands",
+      "initial_known": 222,
+      "methods": [
+        {
+          "name": "随机直飞",
+          "id": -1,
+          "successes": 1241,
+          "rate": 0.2482,
+          "restricted_mean_distance": 8504.899274959002,
+          "success4096": 658,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "覆盖优先",
+          "id": -3,
+          "successes": 1266,
+          "rate": 0.2532,
+          "restricted_mean_distance": 8466.0169041556,
+          "success4096": 680,
+          "mean_mode_steps": [
+            79.0,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "当前搜索器",
+          "id": 41003,
+          "successes": 1339,
+          "rate": 0.2678,
+          "restricted_mean_distance": 8373.7272420346,
+          "success4096": 726,
+          "mean_mode_steps": [
+            66.1716,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        },
+        {
+          "name": "本轮搜索器",
+          "id": 42003,
+          "successes": 1339,
+          "rate": 0.2678,
+          "restricted_mean_distance": 8373.7272420346,
+          "success4096": 726,
+          "mean_mode_steps": [
+            66.1716,
+            0.0,
+            0.0
+          ],
+          "mean_goals": 0.0,
+          "mean_exits": 0.0,
+          "mean_corrections": 0.0,
+          "mean_probes": 0.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1916,
+      "reference_successes": 1918,
+      "new_rate": 0.3832,
+      "reference_rate": 0.3836,
+      "difference": -0.0004,
+      "difference_ci95": [
+        -0.0162,
+        0.0154
+      ],
+      "relative_gain": -0.0010427528675703845,
+      "new_only": 814,
+      "reference_only": 816,
+      "paired_exact_p": 0.9802403317104332,
+      "new_restricted_mean_distance": 7589.1057812098,
+      "reference_restricted_mean_distance": 7641.903911157,
+      "restricted_distance_difference": -52.79812994720001,
+      "restricted_distance_ci95": [
+        -142.862073047825,
+        35.51089438541497
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 4
+    },
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1916,
+      "reference_successes": 1868,
+      "new_rate": 0.3832,
+      "reference_rate": 0.3736,
+      "difference": 0.0096,
+      "difference_ci95": [
+        -0.0064,
+        0.0252
+      ],
+      "relative_gain": 0.025695931477516032,
+      "new_only": 831,
+      "reference_only": 783,
+      "paired_exact_p": 0.24203513912932423,
+      "new_restricted_mean_distance": 7589.1057812098,
+      "reference_restricted_mean_distance": 7642.695685413599,
+      "restricted_distance_difference": -53.589904203799996,
+      "restricted_distance_ci95": [
+        -142.60081436044499,
+        36.30861009698996
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "当前搜索器",
+      "reference_id": 41000,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1916,
+      "reference_successes": 1916,
+      "new_rate": 0.3832,
+      "reference_rate": 0.3832,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 7589.1057812098,
+      "reference_restricted_mean_distance": 7589.1057812098,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "unknown_at_origin",
+      "seeds": 4664,
+      "new_successes": 1580,
+      "reference_successes": 1582,
+      "new_rate": 0.33876500857632935,
+      "reference_rate": 0.33919382504288165,
+      "difference": -0.0004288164665523156,
+      "difference_ci95": [
+        -0.017152658662092625,
+        0.016514794168095977
+      ],
+      "relative_gain": -0.0012642225031606058,
+      "new_only": 814,
+      "reference_only": 816,
+      "paired_exact_p": 0.9802403317104332,
+      "new_restricted_mean_distance": 8135.833813475343,
+      "reference_restricted_mean_distance": 8192.435582286664,
+      "restricted_distance_difference": -56.60176881132075,
+      "restricted_distance_ci95": [
+        -150.85482833451437,
+        38.187945938620196
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 4
+    },
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "unknown_at_origin",
+      "seeds": 4664,
+      "new_successes": 1580,
+      "reference_successes": 1532,
+      "new_rate": 0.33876500857632935,
+      "reference_rate": 0.32847341337907376,
+      "difference": 0.010291595197255575,
+      "difference_ci95": [
+        -0.006432246998284734,
+        0.0274442538593482
+      ],
+      "relative_gain": 0.031331592689294974,
+      "new_only": 831,
+      "reference_only": 783,
+      "paired_exact_p": 0.24203513912932423,
+      "new_restricted_mean_distance": 8135.833813475343,
+      "reference_restricted_mean_distance": 8193.284396884219,
+      "restricted_distance_difference": -57.4505834088765,
+      "restricted_distance_ci95": [
+        -154.46718062128,
+        36.813152386803104
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "巨型针叶林",
+      "target_index": 0,
+      "reference": "当前搜索器",
+      "reference_id": 41000,
+      "cohort": "unknown_at_origin",
+      "seeds": 4664,
+      "new_successes": 1580,
+      "reference_successes": 1580,
+      "new_rate": 0.33876500857632935,
+      "reference_rate": 0.33876500857632935,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 8135.833813475343,
+      "reference_restricted_mean_distance": 8135.833813475343,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1199,
+      "reference_successes": 717,
+      "new_rate": 0.2398,
+      "reference_rate": 0.1434,
+      "difference": 0.0964,
+      "difference_ci95": [
+        0.0826,
+        0.1102
+      ],
+      "relative_gain": 0.6722454672245468,
+      "new_only": 871,
+      "reference_only": 389,
+      "paired_exact_p": 7.335968053365682e-43,
+      "new_restricted_mean_distance": 8701.1327397204,
+      "reference_restricted_mean_distance": 9232.648447056401,
+      "restricted_distance_difference": -531.515707336,
+      "restricted_distance_ci95": [
+        -608.40992544332,
+        -456.0103355889851
+      ],
+      "holm_p": 2.9343872213462726e-42,
+      "test_family_size": 4
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1199,
+      "reference_successes": 738,
+      "new_rate": 0.2398,
+      "reference_rate": 0.1476,
+      "difference": 0.0922,
+      "difference_ci95": [
+        0.0784,
+        0.106
+      ],
+      "relative_gain": 0.6246612466124661,
+      "new_only": 881,
+      "reference_only": 420,
+      "paired_exact_p": 5.020114401396633e-38,
+      "new_restricted_mean_distance": 8701.1327397204,
+      "reference_restricted_mean_distance": 9223.8536098688,
+      "restricted_distance_difference": -522.7208701484001,
+      "restricted_distance_ci95": [
+        -601.940644426245,
+        -444.60767448086995
+      ],
+      "holm_p": 4.0160915211173065e-37,
+      "test_family_size": 8
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "当前搜索器",
+      "reference_id": 41001,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1199,
+      "reference_successes": 1172,
+      "new_rate": 0.2398,
+      "reference_rate": 0.2344,
+      "difference": 0.0054,
+      "difference_ci95": [
+        -0.005604999999999995,
+        0.01660499999999993
+      ],
+      "relative_gain": 0.023037542662116106,
+      "new_only": 415,
+      "reference_only": 388,
+      "paired_exact_p": 0.35887815074014,
+      "new_restricted_mean_distance": 8701.1327397204,
+      "reference_restricted_mean_distance": 8705.6331292092,
+      "restricted_distance_difference": -4.5003894888000024,
+      "restricted_distance_ci95": [
+        -52.539091250824995,
+        42.55255870198
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "unknown_at_origin",
+      "seeds": 4952,
+      "new_successes": 1151,
+      "reference_successes": 669,
+      "new_rate": 0.2324313408723748,
+      "reference_rate": 0.13509693053311794,
+      "difference": 0.09733441033925687,
+      "difference_ci95": [
+        0.08319870759289176,
+        0.11126817447495961
+      ],
+      "relative_gain": 0.7204783258594918,
+      "new_only": 871,
+      "reference_only": 389,
+      "paired_exact_p": 7.335968053365682e-43,
+      "new_restricted_mean_distance": 8785.473283239497,
+      "reference_restricted_mean_distance": 9322.141000662763,
+      "restricted_distance_difference": -536.6677174232633,
+      "restricted_distance_ci95": [
+        -614.080584964156,
+        -457.9179216392165
+      ],
+      "holm_p": 2.9343872213462726e-42,
+      "test_family_size": 4
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "unknown_at_origin",
+      "seeds": 4952,
+      "new_successes": 1151,
+      "reference_successes": 690,
+      "new_rate": 0.2324313408723748,
+      "reference_rate": 0.13933764135702748,
+      "difference": 0.09309369951534734,
+      "difference_ci95": [
+        0.07895799676898223,
+        0.10722940226171244
+      ],
+      "relative_gain": 0.6681159420289855,
+      "new_only": 881,
+      "reference_only": 420,
+      "paired_exact_p": 5.020114401396633e-38,
+      "new_restricted_mean_distance": 8785.473283239497,
+      "reference_restricted_mean_distance": 9313.260914649436,
+      "restricted_distance_difference": -527.7876314099354,
+      "restricted_distance_ci95": [
+        -606.6134312495608,
+        -449.9635727483997
+      ],
+      "holm_p": 4.0160915211173065e-37,
+      "test_family_size": 8
+    },
+    {
+      "target": "蘑菇岛",
+      "target_index": 1,
+      "reference": "当前搜索器",
+      "reference_id": 41001,
+      "cohort": "unknown_at_origin",
+      "seeds": 4952,
+      "new_successes": 1151,
+      "reference_successes": 1124,
+      "new_rate": 0.2324313408723748,
+      "reference_rate": 0.22697899838449112,
+      "difference": 0.005452342487883684,
+      "difference_ci95": [
+        -0.0058562197092084005,
+        0.016962843295638127
+      ],
+      "relative_gain": 0.024021352313167155,
+      "new_only": 415,
+      "reference_only": 388,
+      "paired_exact_p": 0.35887815074014,
+      "new_restricted_mean_distance": 8785.473283239497,
+      "reference_restricted_mean_distance": 8790.017295243537,
+      "restricted_distance_difference": -4.544012004038771,
+      "restricted_distance_ci95": [
+        -53.40228520214559,
+        42.972219949071054
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 2108,
+      "reference_successes": 2112,
+      "new_rate": 0.4216,
+      "reference_rate": 0.4224,
+      "difference": -0.0008,
+      "difference_ci95": [
+        -0.0184,
+        0.0166
+      ],
+      "relative_gain": -0.0018939393939394478,
+      "new_only": 958,
+      "reference_only": 962,
+      "paired_exact_p": 0.9454175822525926,
+      "new_restricted_mean_distance": 7189.296686471599,
+      "reference_restricted_mean_distance": 7226.791982378,
+      "restricted_distance_difference": -37.49529590639998,
+      "restricted_distance_ci95": [
+        -149.42504084888,
+        73.89842289399996
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 4
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 2108,
+      "reference_successes": 2084,
+      "new_rate": 0.4216,
+      "reference_rate": 0.4168,
+      "difference": 0.0048,
+      "difference_ci95": [
+        -0.0122,
+        0.0216
+      ],
+      "relative_gain": 0.011516314779270731,
+      "new_only": 929,
+      "reference_only": 905,
+      "paired_exact_p": 0.5912335963629373,
+      "new_restricted_mean_distance": 7189.296686471599,
+      "reference_restricted_mean_distance": 7240.444456151199,
+      "restricted_distance_difference": -51.1477696796,
+      "restricted_distance_ci95": [
+        -159.86874726909,
+        57.796848077725
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "当前搜索器",
+      "reference_id": 41002,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 2108,
+      "reference_successes": 2108,
+      "new_rate": 0.4216,
+      "reference_rate": 0.4216,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 7189.296686471599,
+      "reference_restricted_mean_distance": 7189.296686471599,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "unknown_at_origin",
+      "seeds": 4556,
+      "new_successes": 1664,
+      "reference_successes": 1668,
+      "new_rate": 0.3652326602282704,
+      "reference_rate": 0.36611062335381916,
+      "difference": -0.000877963125548727,
+      "difference_ci95": [
+        -0.019534679543459176,
+        0.017998244073748903
+      ],
+      "relative_gain": -0.0023980815347721673,
+      "new_only": 958,
+      "reference_only": 962,
+      "paired_exact_p": 0.9454175822525926,
+      "new_restricted_mean_distance": 7889.921736689639,
+      "reference_restricted_mean_distance": 7931.071095673837,
+      "restricted_distance_difference": -41.14935898419667,
+      "restricted_distance_ci95": [
+        -163.34981055767668,
+        78.00553279709719
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 4
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "unknown_at_origin",
+      "seeds": 4556,
+      "new_successes": 1664,
+      "reference_successes": 1640,
+      "new_rate": 0.3652326602282704,
+      "reference_rate": 0.35996488147497807,
+      "difference": 0.0052677787532923615,
+      "difference_ci95": [
+        -0.013169446883230905,
+        0.02392449517120281
+      ],
+      "relative_gain": 0.014634146341463428,
+      "new_only": 929,
+      "reference_only": 905,
+      "paired_exact_p": 0.5912335963629373,
+      "new_restricted_mean_distance": 7889.921736689639,
+      "reference_restricted_mean_distance": 7946.054056355574,
+      "restricted_distance_difference": -56.13231966593503,
+      "restricted_distance_ci95": [
+        -176.6497999816341,
+        61.29584807515913
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "丛林",
+      "target_index": 2,
+      "reference": "当前搜索器",
+      "reference_id": 41002,
+      "cohort": "unknown_at_origin",
+      "seeds": 4556,
+      "new_successes": 1664,
+      "reference_successes": 1664,
+      "new_rate": 0.3652326602282704,
+      "reference_rate": 0.3652326602282704,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 7889.921736689639,
+      "reference_restricted_mean_distance": 7889.921736689639,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1339,
+      "reference_successes": 1241,
+      "new_rate": 0.2678,
+      "reference_rate": 0.2482,
+      "difference": 0.0196,
+      "difference_ci95": [
+        0.0062,
+        0.033
+      ],
+      "relative_gain": 0.0789685737308623,
+      "new_only": 627,
+      "reference_only": 529,
+      "paired_exact_p": 0.0043116426125204615,
+      "new_restricted_mean_distance": 8373.7272420346,
+      "reference_restricted_mean_distance": 8504.899274959002,
+      "restricted_distance_difference": -131.17203292439999,
+      "restricted_distance_ci95": [
+        -203.331507272845,
+        -59.854369894955
+      ],
+      "holm_p": 0.012934927837561384,
+      "test_family_size": 4
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1339,
+      "reference_successes": 1266,
+      "new_rate": 0.2678,
+      "reference_rate": 0.2532,
+      "difference": 0.0146,
+      "difference_ci95": [
+        0.0021950000000000047,
+        0.0272
+      ],
+      "relative_gain": 0.05766192733017372,
+      "new_only": 557,
+      "reference_only": 484,
+      "paired_exact_p": 0.025597476637318498,
+      "new_restricted_mean_distance": 8373.7272420346,
+      "reference_restricted_mean_distance": 8466.0169041556,
+      "restricted_distance_difference": -92.289662121,
+      "restricted_distance_ci95": [
+        -159.158964029895,
+        -25.655026315515002
+      ],
+      "holm_p": 0.1791823364612295,
+      "test_family_size": 8
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "当前搜索器",
+      "reference_id": 41003,
+      "cohort": "all5000",
+      "seeds": 5000,
+      "new_successes": 1339,
+      "reference_successes": 1339,
+      "new_rate": 0.2678,
+      "reference_rate": 0.2678,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 8373.7272420346,
+      "reference_restricted_mean_distance": 8373.7272420346,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "随机直飞",
+      "reference_id": -1,
+      "cohort": "unknown_at_origin",
+      "seeds": 4778,
+      "new_successes": 1117,
+      "reference_successes": 1019,
+      "new_rate": 0.23377982419422352,
+      "reference_rate": 0.21326915027208038,
+      "difference": 0.020510673922143157,
+      "difference_ci95": [
+        0.007115948095437421,
+        0.03432398493093344
+      ],
+      "relative_gain": 0.09617271835132479,
+      "new_only": 627,
+      "reference_only": 529,
+      "paired_exact_p": 0.0043116426125204615,
+      "new_restricted_mean_distance": 8762.795355833612,
+      "reference_restricted_mean_distance": 8900.062029048766,
+      "restricted_distance_difference": -137.26667321515276,
+      "restricted_distance_ci95": [
+        -211.6872075321735,
+        -65.52745666780041
+      ],
+      "holm_p": 0.012934927837561384,
+      "test_family_size": 4
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "覆盖优先",
+      "reference_id": -3,
+      "cohort": "unknown_at_origin",
+      "seeds": 4778,
+      "new_successes": 1117,
+      "reference_successes": 1044,
+      "new_rate": 0.23377982419422352,
+      "reference_rate": 0.2185014650481373,
+      "difference": 0.015278359146086228,
+      "difference_ci95": [
+        0.0022969861866889963,
+        0.028254499790707408
+      ],
+      "relative_gain": 0.06992337164750961,
+      "new_only": 557,
+      "reference_only": 484,
+      "paired_exact_p": 0.025597476637318498,
+      "new_restricted_mean_distance": 8762.795355833612,
+      "reference_restricted_mean_distance": 8859.373068392215,
+      "restricted_distance_difference": -96.57771255860193,
+      "restricted_distance_ci95": [
+        -165.0760550092821,
+        -28.311999935532654
+      ],
+      "holm_p": 0.1791823364612295,
+      "test_family_size": 8
+    },
+    {
+      "target": "恶地",
+      "target_index": 3,
+      "reference": "当前搜索器",
+      "reference_id": 41003,
+      "cohort": "unknown_at_origin",
+      "seeds": 4778,
+      "new_successes": 1117,
+      "reference_successes": 1117,
+      "new_rate": 0.23377982419422352,
+      "reference_rate": 0.23377982419422352,
+      "difference": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_gain": 0.0,
+      "new_only": 0,
+      "reference_only": 0,
+      "paired_exact_p": 1.0,
+      "new_restricted_mean_distance": 8762.795355833612,
+      "reference_restricted_mean_distance": 8762.795355833612,
+      "restricted_distance_difference": 0.0,
+      "restricted_distance_ci95": [
+        0.0,
+        0.0
+      ],
+      "holm_p": 1.0,
+      "test_family_size": 8
+    }
+  ],
+  "performance": {
+    "training_seconds": 2164.9531085999915,
+    "training_peak_own_bytes": 271998976,
+    "shared_MC_peak_bytes": 2316275712,
+    "validation_seconds": 94.93688300001668,
+    "validation_peak_own_bytes": 235466752,
+    "training_episodes": 1136000,
+    "validation_routes": 50000
+  },
+  "checks": {
+    "fresh5000_disjoint_from_all_prior": true,
+    "rules_frozen_before_validation": true
+  },
+  "limitations": [
+    "Finite heuristic search, not an optimum claim.",
+    "Native4-block biome labels, ideal512 visibility and fixed0,0 origin.",
+    "Area stats at stop include up to128 blocks past first hit; baseline area at10000 is not directly comparable.",
+    "Individual rate-difference confidence intervals are unadjusted; Holm exact tests reported separately."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": "1.16.1",
+  "advancement": "minecraft:adventure/adventuring_time",
+  "criteria_count": 42,
+  "all_required_individually": true,
+  "trigger": "minecraft:location",
+  "jar_sha1": "a412fd69db1f81db3f511c1463fd304675244077",
+  "advancement_asset_sha256": "6ba8edacbeeb8bc8c2ed6f44253af5c25b1769574b7ae5682ccbe8538d297654",
+  "official_version_metadata": "https://piston-meta.mojang.com/v1/packages/54fa3af57d041d2771e66d390197b2c0288e697c/1.16.1.json",
+  "official_server_download": "https://piston-data.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar",
+  "readable_original_asset_mirror": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.16.1/data/minecraft/advancements/adventure/adventuring_time.json",
+  "required_biomes": {
+    "巨型针叶林": [
+      "giant_tree_taiga",
+      "giant_tree_taiga_hills"
+    ],
+    "蘑菇岛": [
+      "mushroom_fields",
+      "mushroom_field_shore"
+    ],
+    "丛林": [
+      "jungle",
+      "jungle_hills",
+      "jungle_edge",
+      "bamboo_jungle",
+      "bamboo_jungle_hills"
+    ],
+    "恶地": [
+      "badlands",
+      "badlands_plateau",
+      "wooded_badlands_plateau"
+    ],
+    "海洋": [
+      "warm_ocean",
+      "lukewarm_ocean",
+      "cold_ocean",
+      "deep_lukewarm_ocean",
+      "deep_cold_ocean",
+      "deep_frozen_ocean"
+    ],
+    "其他必需群系": [
+      "birch_forest_hills",
+      "river",
+      "swamp",
+      "desert",
+      "wooded_hills",
+      "snowy_taiga",
+      "forest",
+      "stone_shore",
+      "snowy_tundra",
+      "taiga_hills",
+      "snowy_mountains",
+      "savanna",
+      "plains",
+      "frozen_river",
+      "snowy_beach",
+      "mountains",
+      "desert_hills",
+      "beach",
+      "savanna_plateau",
+      "snowy_taiga_hills",
+      "dark_forest",
+      "taiga",
+      "birch_forest",
+      "wooded_mountains"
+    ]
+  }
+}

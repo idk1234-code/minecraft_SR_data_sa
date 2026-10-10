@@ -1,0 +1,203 @@
+{
+  "study": "Full10000 single-target longhaul local corrections and cue exit v5",
+  "created_utc": "2026-10-10T20:19:07.860485+00:00",
+  "training_seeds": 8000,
+  "fresh_validation_seeds": 5000,
+  "budget_blocks": 10000,
+  "visibility": "Continuous circular radius512, seen is found",
+  "origin": [
+    0,
+    0
+  ],
+  "version": "Java Overworld1.16.5",
+  "native_scale": 4,
+  "planner_scale": 32,
+  "headings": 16,
+  "step": 128,
+  "targets": [
+    "mega_taiga",
+    "mushroom_fields",
+    "jungle",
+    "badlands"
+  ],
+  "iterations": 8,
+  "offspring_per_target_per_iteration": 4,
+  "initial_candidates_per_target": 3,
+  "candidate_programs": 140,
+  "candidate_training_episodes": 1120000,
+  "shared_training_baseline_episodes": 16000,
+  "total_training_episodes": 1136000,
+  "objective": [
+    "success10000 descending",
+    "restricted mean first-target distance ascending, failures10000",
+    "success4096 descending",
+    "success2048 descending",
+    "rule complexity ascending"
+  ],
+  "feedback": "Every new candidate uses previous full8000 training metrics; all candidates evaluate every training seed, incumbents preserved. No validation feedback.",
+  "stopping": "Dedicated policies stop at first decision after target hit; success distance is exact continuous first hit. Initial-known targets count as immediate success and are separately excluded in secondary analysis. Shared straight/novelty controls fly full10000 for reuse across all4 targets.",
+  "controls": [
+    "random_straight",
+    "novelty_only",
+    "current_frozen_single_target_expert"
+  ],
+  "phases": [
+    "coordinate long-distance advance",
+    "cue-following local probe",
+    "leave a timed-out cue region"
+  ],
+  "parameter_ranges": {
+    "advance_distance": [
+      512,
+      4096
+    ],
+    "advance_commit": [
+      128,
+      3072
+    ],
+    "advance_steer": [
+      0,
+      1.8
+    ],
+    "local_scale": [
+      0,
+      2.5
+    ],
+    "cue_trigger": [
+      0.03,
+      1.05
+    ],
+    "minimum_probe": [
+      128,
+      1536
+    ],
+    "maximum_probe": [
+      256,
+      4096
+    ],
+    "weak_cue": [
+      0,
+      0.6
+    ],
+    "novelty_floor": [
+      0,
+      0.2
+    ],
+    "stall_distance": [
+      128,
+      2048
+    ],
+    "exit_distance": [
+      512,
+      4096
+    ],
+    "exit_commit": [
+      128,
+      2048
+    ],
+    "history_weight": [
+      0,
+      2
+    ],
+    "history_radius": [
+      512,
+      2048
+    ],
+    "medium_weight": [
+      -0.5,
+      1
+    ],
+    "corridor_weight": [
+      0,
+      2
+    ],
+    "cue_route_weight": [
+      0,
+      1.5
+    ],
+    "local_override": [
+      0.01,
+      0.8
+    ],
+    "ban_weight": [
+      0,
+      2
+    ],
+    "ban_radius": [
+      512,
+      2048
+    ],
+    "probe_cue_weight": [
+      0,
+      0.7
+    ],
+    "exit_steer": [
+      0,
+      2
+    ]
+  },
+  "cue_features": "Observed exploration frontier proportions: sea, taiga, forests, cold, humid, warm. Feature selection also evolves. No hidden component size or location supplied.",
+  "allowed_inputs": [
+    "masked observed terrain",
+    "first-found target flags",
+    "F3 X/Z and heading",
+    "route history",
+    "distance since state entry"
+  ],
+  "forbidden_inputs": [
+    "world seed in policy",
+    "unseen biome labels",
+    "component geometry from full map",
+    "validation outcomes during training"
+  ],
+  "validation_policies": 10,
+  "validation_routes": 50000,
+  "primary": "Four target-wise new vs straight success10000 paired exact tests, Holm across4",
+  "secondary": "New vs coverage and current expert, Holm across8; unknown-at-origin cohort and restricted distances descriptive secondary",
+  "confidence_intervals": "10000 whole-seed paired bootstrap, unadjusted95% intervals; exact paired tests separate.",
+  "prior_validation": "Already observed context, excluded from fresh validation.",
+  "excluded_seed_count": 32056,
+  "source_hashes": {
+    "work/route_longhaul/engine.c": "6021ce53e8d43ed42987669afb6207c27460225e67cdd84c622144fcb4864e48",
+    "work/route_longhaul/model.py": "9fbbcd628504e439c7768833cf12f89e86bf44b6574dcb252789c33ddda01380",
+    "work/route_longhaul/runner.py": "ab5f0dacb1e274f62f292421647f0e465d848a917c8e994a7865f9754127e494",
+    "work/route_longhaul/run.py": "e6f31c7cdc4facc4946afd2d65354f36b231467cccfeab44d39ba73e4b0bcc34",
+    "work/route_longhaul/verify.py": "999efb8a5206910bad1366ef8199514bdf3a00619b74594018ff2c5e1c300c57",
+    "work/route_longhaul/build.py": "d4c287de2f967b5d0596d1129957cca06883bba3f61c0af8c47f61106984921f",
+    "work/route_longhaul/modular_core.inc": "c28dcbd7875e999af16487bb5a8b907845a8d5b48e78948ef7fe81cc3c1a73fd",
+    "work/route_longhaul/accelerated.inc": "350c4c9e868cfefb530c0f26270d57d1afe76562e56027bb2479e655ed9e9949",
+    "work/route_longhaul/local_policy.inc": "78cf48f92c12aaefdba3ad63519d4b485ba40e9e0edb6bcb09e03237425f4d67",
+    "work/route_longhaul/engine.exe": "43c685228de1a8272e341564f660894c3185576461f156ff6773786bd245a4ac",
+    "work/route_modular/engine.c": "5edc21314dc7282b10ad9e661ffa4a405d2170f6f906066f328e1843c387550b",
+    "work/route_modular/accelerated.inc": "350c4c9e868cfefb530c0f26270d57d1afe76562e56027bb2479e655ed9e9949",
+    "work/route_modular/local_policy.inc": "78cf48f92c12aaefdba3ad63519d4b485ba40e9e0edb6bcb09e03237425f4d67",
+    "work/route_fast/observer.inc": "594618fc200a19a7544db801487151f94031ecaf25c589741afa29f43c67421a",
+    "work/route_fast/engine.c": "ca8a81c0148eaf3fa62eec74ae1d1182569219de50285803b9cad16154350f20",
+    "work/route_fast/local_policy.inc": "99bbaabf47a63dbaf9714cd23d9f826f65854eeddceba03f852382c3554c1d48",
+    "work/cubiomes/biomenoise.c": "ec7229f66426e4f8eab0ac32658855844e7a81124efc5580a753a3fa4b4e4b01",
+    "work/cubiomes/biomes.c": "e527fb47813f61e6d16e9b9a29e634b00489671dceaa644cebce8e1ddf637d2e",
+    "work/cubiomes/finders.c": "5b0d86e1e2702a50de5c4674889c7df926565a5980a178f6097d4767a2137ecd",
+    "work/cubiomes/generator.c": "14e1cdccb28661624085a952b15ef9fb2db7004681216b769112700382a55aac",
+    "work/cubiomes/layers.c": "602a5837ad166f80dc1fd4395a9ac8f0063e801dd0cc47fe9dc2848b008a63a2",
+    "work/cubiomes/noise.c": "e504dc0078ad462541a52bde07312b686b93b95aa56b8680db319190e0aa38b0",
+    "work/cubiomes/quadbase.c": "e320ed499c535fc799a98119d771ea5bc61ac1a1ca7fab1ec41f45a8a9432929",
+    "work/cubiomes/tests.c": "7b86e79efc36909d9496b8bfc776ebfcf2696061f49406da61c4d5dfb0c5a691",
+    "work/cubiomes/util.c": "bbf1f4d923b25591b3e4ae9bbd24a729bcf2c4898e06d87882ee5a3bdf0c4b13",
+    "work/cubiomes/biomenoise.h": "bc499fc72f62156be6f62451ed42883c3e06736f4780e47739699971d6f4eadc",
+    "work/cubiomes/biomes.h": "44669f6d98d78060474c8bc2f7df57b184b5d38c6b470188c9c75ce5f13a2488",
+    "work/cubiomes/finders.h": "2ed5c9fe239b690afad4347dda589aad11d8914505c61850ffe729070d78ea9e",
+    "work/cubiomes/generator.h": "3f05bf54e114c8d8c1ff00f3bfd733ebc3d5139df7f15232d898128d732a637f",
+    "work/cubiomes/layers.h": "5901cbfea83b0c1454ddae89fcb6cac6297bc4aac0be0cff562b5aa9dc8467cd",
+    "work/cubiomes/noise.h": "f004dbab714c711d441ee3e7916888a23fe64004eed2ac98bfdb46b89430ff5e",
+    "work/cubiomes/quadbase.h": "9d7815a02e9612d410d43bcb709b55b88d7e1f0a1be4242968588f814595c219",
+    "work/cubiomes/rng.h": "7e6fd8627914535efae5b7e91409a285cfde67d58b9302ab0922749d164787fb",
+    "work/cubiomes/util.h": "f954ffb08ac4a0d8bf1fdfd8d9d058b7421eff985f6b0b9e98fb729ea2e157d4"
+  },
+  "input_hashes": {
+    "training_manifest.jsonl": "507d1a990232984a417375a2bb01b78617d6a876bd9e4261d50ed68f71f12a9d",
+    "validation_manifest.jsonl": "f415aef63d3ee18e65e6261db7adf3078554c895ac1568a5eba5222ee5582899",
+    "initial_programs.json": "511bcaa2d05b6cf306105a12794c7c36c2512544086f73abf95fa14274314816",
+    "excluded_prior_seeds.json": "fae7a80c7ee2d9475dfb6cca25eefc15d328632327f7c80dd16bdc650dfe59ba"
+  },
+  "prior_experts_sha256": "b643b07796accb76746a140e4aafc7c257c52312b5901f300c0c5bdc91b8dbe0"
+}

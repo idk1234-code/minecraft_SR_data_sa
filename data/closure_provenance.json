@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-10T21:12:57.768672+00:00",
+  "status": "Stage closed, no universal optimality claim",
+  "policy_identity_across_validation_cohorts": true,
+  "two5000_cohorts_disjoint": true,
+  "no_new_training_or_map_generation": true,
+  "inputs_sha256": {
+    "outputs/route_single_target/analysis.json": "7630cae1202be84ad42eb394d20caa6e67068aa5211ae39c6daacdf69984d50b",
+    "outputs/route_modular/experts_frozen.json": "b643b07796accb76746a140e4aafc7c257c52312b5901f300c0c5bdc91b8dbe0",
+    "outputs/route_longhaul/validation_results.json": "55f76906470265162684b1c54b08f17bc7353433c6c9e3dcc774bf54d47b0bd2",
+    "outputs/route_longhaul/validation_arrays.npz": "5cabc24794a31d162aabc182da4562bfb754a71484674e5924613eda4fb77137",
+    "outputs/route_longhaul/validation_programs.json": "8246f4a0c5ad528410051fe26d0e0cc03d343a6c189693cc95fca5ffccb65c2c",
+    "outputs/route_longhaul/rules_frozen.json": "8aeb8fba0e5dea0cab846b4a01fe74e02665102d11326e0e30074e676606023d"
+  },
+  "existing_experiments_unchanged": true
+}
